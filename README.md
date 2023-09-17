@@ -4,7 +4,7 @@ Kaidi Cao*, Maria Brbić*, Jure Leskovec
 [Project website](http://snap.stanford.edu/orca)
 _________________
 
-This repository contains the PyTorch reference source code of the ORCA algorithm, <font color=red>and its code is explained in detail</font>. ORCA is a pipeline that recognizes previously seen classes and discovers novel, never-before-seen classes at the same time.. For more details please check our paper [Open-World Semi-Supervised Learning](https://arxiv.org/pdf/2102.03526.pdf) (ICLR '22). 
+This repository contains the PyTorch reference source code of the ORCA algorithm, <font color=red>**and its code is explained in detail**</font>. ORCA is a pipeline that recognizes previously seen classes and discovers novel, never-before-seen classes at the same time.. For more details please check our paper [Open-World Semi-Supervised Learning](https://arxiv.org/pdf/2102.03526.pdf) (ICLR '22). 
 
 ### Dependencies
 
