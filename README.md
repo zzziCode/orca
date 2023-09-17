@@ -4,7 +4,7 @@ Kaidi Cao*, Maria Brbić*, Jure Leskovec
 [Project website](http://snap.stanford.edu/orca)
 _________________
 
-This repo contains the reference source code in PyTorch of the ORCA algorithm. ORCA is a pipeline that recognizes previously seen classes and discovers novel, never-before-seen classes at the same time.. For more details please check our paper [Open-World Semi-Supervised Learning](https://arxiv.org/pdf/2102.03526.pdf) (ICLR '22). 
+This repository contains the PyTorch reference source code of the ORCA algorithm, <font color=red>and its code is explained in detail</font>. ORCA is a pipeline that recognizes previously seen classes and discovers novel, never-before-seen classes at the same time.. For more details please check our paper [Open-World Semi-Supervised Learning](https://arxiv.org/pdf/2102.03526.pdf) (ICLR '22). 
 
 ### Dependencies
 
@@ -30,6 +30,8 @@ python orca_cifar.py --dataset cifar100 --labeled-num 50 --labeled-ratio 0.5
 ```bash
 python orca_imagenet.py --labeled-num 50 --labeled-ratio 0.5
 ```
+
+> When downloading the dataset fails, try to [manually download](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) the dataset and add it to `./dataset`
 
 ### Citing
 
